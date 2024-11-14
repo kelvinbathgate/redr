@@ -22,4 +22,5 @@ n = xx[2]
 
 let rd = rd1 + rd2 + rd3 + rd4 + rd5 + rd6 + rd7 + m + '-' + n
 
-window.location.assign(rd)
+setTimeout(() => window.location.assign(rd), 1500)
+
